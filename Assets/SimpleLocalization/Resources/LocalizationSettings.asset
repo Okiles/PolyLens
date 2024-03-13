@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63817d93022759543b57e795c78efe11, type: 3}
   m_Name: LocalizationSettings
   m_EditorClassIdentifier: 
-  TableId: 1RvKY3VE_y5FPhEECCa5dv4F7REJ7rBtGzQg9Z_B_DE4
+  TableId: 1xfL971gDXXS4rqXUoYytgwJEXiCeQBecHuoCRmkeasQ
   Sheets:
   - Name: Menu
     Id: 0
-    TextAsset: {fileID: 0}
-  - Name: Settings
-    Id: 331980525
-    TextAsset: {fileID: 0}
-  - Name: Tests
-    Id: 1674352817
-    TextAsset: {fileID: 0}
+    TextAsset: {fileID: 4900000, guid: b1918332aa8d2c5498dcbba2917c2eb2, type: 3}
+  - Name: Step
+    Id: 1756530517
+    TextAsset: {fileID: 4900000, guid: 00da3eaade6f3d843b039d18435b697a, type: 3}
+  - Name: Laser
+    Id: 1676734737
+    TextAsset: {fileID: 4900000, guid: 84a0d8ea47669254c9feca88a5a2efc7, type: 3}
+  - Name: Code
+    Id: 94190812
+    TextAsset: {fileID: 4900000, guid: 47c0e7af68c635f47925476afb85ee0a, type: 3}
   SaveFolder: {fileID: 102900000, guid: c7c4c1a72ac88e044b501bfe6548810e, type: 3}
