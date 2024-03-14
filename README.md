@@ -6,4 +6,4 @@ Vous pouvez retrouvez la documentation du projet sur ce [lien](https://washifr.g
 
 ## Installation
 
-Après avoir cloner notre projet, ajoutez dans le dossier `Packages` le fichier `com.ptc.vuforia.engine-10.21.3.tgz` disponible à cette [adresse](https://we.tl/t-4xal4JanCN).
+Après avoir cloné notre projet, ajoutez dans le dossier `Packages` le fichier `com.ptc.vuforia.engine-10.21.3.tgz` disponible à cette [adresse](https://we.tl/t-4xal4JanCN).
