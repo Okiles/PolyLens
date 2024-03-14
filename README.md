@@ -9,7 +9,7 @@ Vous pouvez retrouvez la documentation du projet sur ce [lien](https://washifr.g
 
 ## Installation
 
-Après avoir cloné notre projet avec cette commande :
+Après avoir télécharger ou cloné notre projet avec cette commande :
 
 ```git
 git clone https://github.com/Okiles/HoloLens-Vuforia.git
