@@ -1,4 +1,7 @@
-# Polytech Nancy - Hololens 2
+<div align=center>
+  <h1>Polytech Nancy - Hololens 2</h1>
+  <img src="https://skillicons.dev/icons?i=cs,unity,visualstudio">
+</div>
 
 ## Documentation
 
