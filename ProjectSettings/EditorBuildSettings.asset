@@ -6,7 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Hub.unity
+    guid: 10e0ae2620bbbd740a0a1d9fae1df128
+  - enabled: 1
+    path: Assets/Scenes/TestScene.unity
+    guid: 48e1594e22d95eb46921792047f57fdf
+  - enabled: 1
+    path: Assets/Scenes/Laser.unity
+    guid: ef51c5567a1250e439d6495b797fb0b9
+  - enabled: 1
+    path: Assets/Scenes/VuforiaTest.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4fb38393df2ed5447ac8e1e3227cb325, type: 2}
