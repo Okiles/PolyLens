@@ -21,9 +21,9 @@ public class ChangeColor : MonoBehaviour
         ChangeToColor(Color.green);
     }
     
-    public void ChangeToBlue()
+    public void ChangeToWhite()
     {
-        ChangeToColor(Color.blue);
+        ChangeToColor(Color.white);
     }
     
     public void ChangeToYellow()
