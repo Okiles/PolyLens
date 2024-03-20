@@ -39,7 +39,11 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: 579e9cc6057bacf4a858a782f03aef6d, type: 3}
+    duration: 2
+  - logo: {fileID: 21300000, guid: bdbf6e9b877dc50448be9cc63b5b161c, type: 3}
+    duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
@@ -282,7 +286,14 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: eba2df4d0b5058640ac92813a8f0a81d, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
@@ -688,7 +699,8 @@ PlayerSettings:
   metroCertificateIssuer: DefaultCompany
   metroCertificateNotAfter: 00d6c9e0c892db01
   metroApplicationDescription: MRTK3Vu
-  wsaImages: {}
+  wsaImages:
+    2162788: Assets/Textures/logo.png
   metroTileShortName: MRTK3Vu
   metroTileShowName: 0
   metroMediumTileShowName: 0
