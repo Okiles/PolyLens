@@ -26,6 +26,11 @@ public class StepManager : MonoBehaviour
     [Tooltip("Fichier CSV contenant les étapes dans les différentes langues.")]
     [SerializeField] private TextAsset csvFile;
     
+    [FormerlySerializedAs("gameObjects")]
+    [Header("Step List")]
+    [Tooltip("Liste des étapes à activer lors de l'étape.")]
+    [SerializeField] private GameObject[] stepGameObjects;
+    
     private int currentStepIndex = 1;
     
     private int numberOfSteps;
@@ -70,12 +75,25 @@ public class StepManager : MonoBehaviour
     }
     
     /// <summary>
+    /// Met à jour l'affichage des gameobjects.
+    /// </summary>
+    private void UpdateGameObjects()
+    {
+        foreach (GameObject go in stepGameObjects) {
+            go.SetActive(false);
+        }
+        
+        stepGameObjects[currentStepIndex-1].SetActive(true);
+    }
+    
+    /// <summary>
     /// Met à jour l'interface utilisateur.
     /// </summary>
     private void UpdateUI()
     {
         UpdateTextsUI();
         UpdateButtonUI();
+        UpdateGameObjects();
     }
     
     /// <summary>
