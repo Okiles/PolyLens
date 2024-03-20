@@ -40,11 +40,11 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: 579e9cc6057bacf4a858a782f03aef6d, type: 3}
+  - logo: {fileID: 21300000, guid: 63a614627c0489244b9ebcdf5365c3de, type: 3}
     duration: 2
   - logo: {fileID: 21300000, guid: bdbf6e9b877dc50448be9cc63b5b161c, type: 3}
     duration: 2
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 579e9cc6057bacf4a858a782f03aef6d, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
@@ -700,7 +700,10 @@ PlayerSettings:
   metroCertificateNotAfter: 00d6c9e0c892db01
   metroApplicationDescription: MRTK3Vu
   wsaImages:
+    131222: Assets/Textures/logo-splash.png
     2162788: Assets/Textures/logo.png
+    2228324: Assets/Textures/logo-310.png
+    2228374: Assets/Textures/logo-465.png
   metroTileShortName: MRTK3Vu
   metroTileShowName: 0
   metroMediumTileShowName: 0
