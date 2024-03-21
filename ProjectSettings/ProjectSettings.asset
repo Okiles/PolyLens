@@ -22,7 +22,7 @@ PlayerSettings:
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
-  m_SplashScreenDrawMode: 0
+  m_SplashScreenDrawMode: 1
   m_SplashScreenBackgroundAnimationZoom: 1
   m_SplashScreenLogoAnimationZoom: 1
   m_SplashScreenBackgroundLandscapeAspect: 1
@@ -40,11 +40,11 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: 63a614627c0489244b9ebcdf5365c3de, type: 3}
+  - logo: {fileID: 10404, guid: 0000000000000000f000000000000000, type: 0}
     duration: 2
-  - logo: {fileID: 21300000, guid: bdbf6e9b877dc50448be9cc63b5b161c, type: 3}
+  - logo: {fileID: 21300000, guid: 48ee13a6fe11ac443a16151374d7d931, type: 3}
     duration: 2
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 579e9cc6057bacf4a858a782f03aef6d, type: 3}
+  m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
@@ -290,7 +290,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: eba2df4d0b5058640ac92813a8f0a81d, type: 3}
+      m_Icon: {fileID: 0}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -700,10 +700,18 @@ PlayerSettings:
   metroCertificateNotAfter: 00d6c9e0c892db01
   metroApplicationDescription: MRTK3Vu
   wsaImages:
-    131222: Assets/Textures/logo-splash.png
-    2162788: Assets/Textures/logo.png
-    2228324: Assets/Textures/logo-310.png
-    2228374: Assets/Textures/logo-465.png
+    65636: Assets/Textures/logo/logo-50x50.png
+    131222: 
+    131272: Assets/Textures/logo/logo-1240x600.png
+    2031640: Assets/Textures/logo/logo-24x24.png
+    2031716: 
+    2031816: Assets/Textures/logo/logo-88x88.png
+    2097352: Assets/Textures/logo/logo-142x142.png
+    2162788: 
+    2162888: Assets/Textures/logo/logo-300x300.png
+    2228324: 
+    2228374: 
+    2293960: Assets/Textures/logo/logo-620x300.png
   metroTileShortName: MRTK3Vu
   metroTileShowName: 0
   metroMediumTileShowName: 0
