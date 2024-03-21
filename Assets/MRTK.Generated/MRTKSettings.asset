@@ -19,4 +19,4 @@ MonoBehaviour:
     - key: 1
       value: {fileID: 11400000, guid: c677e5c4eb85b7849a8da406775c299d, type: 2}
   buildPreferences:
-    appLauncherModel: {fileID: -6689036041284674117, guid: 3e6adb53b7671e74faff0fcdd7a31440, type: 3}
+    appLauncherModel: {fileID: 8771091787928289351, guid: 3141a2053a65a1e478cf8fcf6d6c828a, type: 3}
