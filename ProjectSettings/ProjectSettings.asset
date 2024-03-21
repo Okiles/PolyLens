@@ -44,7 +44,7 @@ PlayerSettings:
     duration: 2
   - logo: {fileID: 21300000, guid: 48ee13a6fe11ac443a16151374d7d931, type: 3}
     duration: 2
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 48ee13a6fe11ac443a16151374d7d931, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
@@ -290,7 +290,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: d6e6ecfaefff1974c92100494becf716, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -710,7 +710,7 @@ PlayerSettings:
     2162788: 
     2162888: Assets/Textures/logo/logo-300x300.png
     2228324: 
-    2228374: 
+    2228374: Assets/Textures/logo/logo-465x465.png
     2293960: Assets/Textures/logo/logo-620x300.png
   metroTileShortName: MRTK3Vu
   metroTileShowName: 0
