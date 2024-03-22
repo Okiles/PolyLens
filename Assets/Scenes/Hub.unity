@@ -1393,6 +1393,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 739964235334383297, guid: edf522b103767f6478a29c6592b58ede, type: 3}
+      propertyPath: m_Size.z
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 739964235334383297, guid: edf522b103767f6478a29c6592b58ede, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 739964235334383323, guid: edf522b103767f6478a29c6592b58ede, type: 3}
+      propertyPath: m_Name
+      value: FollowButton
+      objectReference: {fileID: 0}
     - target: {fileID: 739964235656503793, guid: edf522b103767f6478a29c6592b58ede, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1567,7 +1579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9113933347581202527, guid: edf522b103767f6478a29c6592b58ede, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9113933347581202527, guid: edf522b103767f6478a29c6592b58ede, type: 3}
       propertyPath: m_LocalRotation.w
