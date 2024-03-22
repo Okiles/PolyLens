@@ -9,7 +9,7 @@ Vous pouvez retrouvez la documentation du projet sur ce [lien](https://washifr.g
 
 ## Installation
 
-Après avoir télécharger ou cloné notre projet avec **git** grâce à la commande :
+Après avoir télécharger ou cloné notre projet avec [git](https://git-scm.com/) grâce à la commande :
 
 ```git
 git clone https://github.com/Okiles/PolyLens.git
