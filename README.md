@@ -5,7 +5,7 @@
 
 ## Documentation
 
-Vous pouvez retrouvez la documentation du projet sur ce [lien](https://washifr.github.io/Hololens-Doc/). Cette documentation explique comment créer un projet avec Hololens et Unity à partir de 0.
+Vous pouvez retrouvez la documentation du projet sur ce [lien](https://washifr.github.io/PolyLens-Doc/). Cette documentation explique comment créer un projet avec Hololens et Unity à partir de 0.
 
 ## Installation
 
