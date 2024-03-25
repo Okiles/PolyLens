@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Ploytech - Nancy
-  productName: MRTK3-Hololens2
+  productName: PolyLens
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -691,14 +691,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: MRTK3Vu
+  metroPackageName: PolyLens
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
   metroCertificateNotAfter: 00d6c9e0c892db01
-  metroApplicationDescription: MRTK3Vu
+  metroApplicationDescription: PolyLens
   wsaImages:
     65636: Assets/Textures/logo/logo-50x50.png
     131222: 
