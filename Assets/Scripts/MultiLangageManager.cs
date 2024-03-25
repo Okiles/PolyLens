@@ -1,18 +1,17 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Assets.SimpleLocalization.Scripts;
 using TMPro;
 using UnityEngine;
 
-public class MultiLangage : MonoBehaviour
+public class MultiLangageManager : MonoBehaviour
 {
+    // On importe les différentes polices d'écriture
     public TMP_FontAsset defaultFont;
     public TMP_FontAsset japaneseFont;
     public TMP_FontAsset arabicFont;
     public TMP_FontAsset chineseFont;
 
-    public static MultiLangage instance;
+    // On crée une instance de MultiLangageManager
+    public static MultiLangageManager instance;
     public void Awake()
     {
         if (instance == null)
@@ -23,8 +22,12 @@ public class MultiLangage : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
+        // On récupère la langue du système
         LocalizationManager.Read();
-
+        
+        
+        // On change la langue en fonction de la langue du système
         switch (Application.systemLanguage)
         {
             case SystemLanguage.German:
@@ -55,12 +58,14 @@ public class MultiLangage : MonoBehaviour
                 LocalizationManager.Language = "English";
                 break;
             default:
+                // Si la langue du système n'est pas reconnue, on met la langue en anglais
                 LocalizationManager.Language = "English";
                 break;
         }
         
     }
     
+    // On crée une fonction pour changer la langue
     public void SetLocalization(string localization)
     {
         LocalizationManager.Language = localization;

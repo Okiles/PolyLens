@@ -28,16 +28,16 @@ namespace Assets.SimpleLocalization.Scripts
             switch (LocalizationManager.Language)
             {
                 case "Chinese":
-                    textMesh.font = MultiLangage.instance.chineseFont;
+                    textMesh.font = MultiLangageManager.instance.chineseFont;
                     break;
                 case "Japanese":
-                    textMesh.font = MultiLangage.instance.japaneseFont;
+                    textMesh.font = MultiLangageManager.instance.japaneseFont;
                     break;
                 case "Arabic":
-                    textMesh.font = MultiLangage.instance.arabicFont;
+                    textMesh.font = MultiLangageManager.instance.arabicFont;
                     break;
                 default:
-                    textMesh.font = MultiLangage.instance.defaultFont;
+                    textMesh.font = MultiLangageManager.instance.defaultFont;
                     break;
             }
             textMesh.text = LocalizationManager.Localize(LocalizationKey);
