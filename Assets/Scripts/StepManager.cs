@@ -1,7 +1,6 @@
 using Assets.SimpleLocalization.Scripts;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 /// <summary>
 /// Gère les étapes d'utilisation de la machine.
@@ -26,7 +25,6 @@ public class StepManager : MonoBehaviour
     [Tooltip("Fichier CSV contenant les étapes dans les différentes langues.")]
     [SerializeField] private TextAsset csvFile;
     
-    [FormerlySerializedAs("gameObjects")]
     [Header("Step List")]
     [Tooltip("Liste des étapes à activer lors de l'étape.")]
     [SerializeField] private GameObject[] stepGameObjects;
@@ -83,7 +81,7 @@ public class StepManager : MonoBehaviour
             go.SetActive(false);
         }
         
-        stepGameObjects[currentStepIndex-1].SetActive(true);
+        stepGameObjects[currentStepIndex - 1].SetActive(true);
     }
     
     /// <summary>
