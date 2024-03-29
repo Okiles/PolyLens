@@ -513,6 +513,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &618113155 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5315855169602657297, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+  m_PrefabInstance: {fileID: 4076865747073778987}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdda129847675049b2367884f390ab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,6 +692,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 263000163}
   m_SourcePrefab: {fileID: 100100000, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
+--- !u!223 &1280157169 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 929470691077607849, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+  m_PrefabInstance: {fileID: 4076865747073778987}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1331571955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,10 +1224,34 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 618113155}
+        m_TargetAssemblyTypeName: ScanLogoUI, Assembly-CSharp
+        m_MethodName: HideUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1280157169}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Canvas, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 618113155}
+        m_TargetAssemblyTypeName: ScanLogoUI, Assembly-CSharp
+        m_MethodName: DisplayUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1280157169}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Canvas, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1925607151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1580,6 +1620,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dedd4c73644bae44cafbae6c4a2af610, type: 3}
+--- !u!1001 &4076865747073778987
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2169785943078657316, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169785943078657316, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169785943078657316, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169785943078657316, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169785943078657316, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169785943078657316, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169785943078657316, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169785943078657316, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169785943078657316, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169785943078657316, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778631515479145879, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
+      propertyPath: m_Name
+      value: ScanLogoUI
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc79c770d7c695441bd9b35af335b5bd, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1589,3 +1686,4 @@ SceneRoots:
   - {fileID: 1546795831}
   - {fileID: 1925607152}
   - {fileID: 2072248133}
+  - {fileID: 4076865747073778987}

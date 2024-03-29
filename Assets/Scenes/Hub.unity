@@ -1439,7 +1439,7 @@ PrefabInstance:
       objectReference: {fileID: 1074817368}
     - target: {fileID: 739964236609383208, guid: edf522b103767f6478a29c6592b58ede, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: VuforiaTest
+      value: Milling
       objectReference: {fileID: 0}
     - target: {fileID: 739964236609383215, guid: edf522b103767f6478a29c6592b58ede, type: 3}
       propertyPath: m_AnchorMax.y
