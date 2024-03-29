@@ -50,7 +50,7 @@ public class StepManager : MonoBehaviour
         LocalizedTextTMP step = descriptionText.GetComponent<LocalizedTextTMP>();
         string stepKey = step.LocalizationKey;
 
-        if (currentStepIndex < 10)
+        if (currentStepIndex <= 10)
         {
             stepKey = stepKey.Substring(0, stepKey.Length - 1);
         } else
