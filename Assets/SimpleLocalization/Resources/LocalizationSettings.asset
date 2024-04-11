@@ -23,6 +23,9 @@ MonoBehaviour:
   - Name: Laser
     Id: 1676734737
     TextAsset: {fileID: 4900000, guid: 84a0d8ea47669254c9feca88a5a2efc7, type: 3}
+  - Name: Milling
+    Id: 186429469
+    TextAsset: {fileID: 4900000, guid: d0f62ac66d8468145b8705feb68f966b, type: 3}
   - Name: Code
     Id: 94190812
     TextAsset: {fileID: 4900000, guid: 47c0e7af68c635f47925476afb85ee0a, type: 3}
