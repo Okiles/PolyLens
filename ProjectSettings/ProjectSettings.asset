@@ -42,9 +42,9 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000f000000000000000, type: 0}
     duration: 2
-  - logo: {fileID: 21300000, guid: 48ee13a6fe11ac443a16151374d7d931, type: 3}
+  - logo: {fileID: 21300000, guid: a47dbd14d51573f44a6bd43dfa817e6a, type: 3}
     duration: 2
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 48ee13a6fe11ac443a16151374d7d931, type: 3}
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: a47dbd14d51573f44a6bd43dfa817e6a, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
@@ -700,9 +700,10 @@ PlayerSettings:
   metroCertificateNotAfter: 00d6c9e0c892db01
   metroApplicationDescription: PolyLens
   wsaImages:
-    65636: Assets/Textures/logo/logo-50x50.png
+    65636: Assets/Textures/Logo/logo-50x50.png
+    131172: Assets/Textures/Logo/logo-620x300.png
     131222: 
-    131272: Assets/Textures/logo/logo-1240x600.png
+    131272: Assets/Textures/Logo/logo-1240x600.png
     2031640: Assets/Textures/logo/logo-24x24.png
     2031716: 
     2031816: Assets/Textures/logo/logo-88x88.png
@@ -712,7 +713,7 @@ PlayerSettings:
     2228324: 
     2228374: Assets/Textures/logo/logo-465x465.png
     2293960: Assets/Textures/logo/logo-620x300.png
-  metroTileShortName: MRTK3Vu
+  metroTileShortName: PolyLens
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
