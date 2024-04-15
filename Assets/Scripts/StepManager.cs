@@ -8,8 +8,8 @@ using UnityEngine;
 public class StepManager : MonoBehaviour
 {
     [Header("Texts UI")]
-    [Tooltip("Texte affichant le nom de l'étape.")]
-    [SerializeField] private TextMeshPro stepNameText;
+    [Tooltip("Texte affichant le titre de l'étape.")]
+    [SerializeField] private TextMeshPro titleText;
     
     [Tooltip("Texte affichant la description de l'étape.")]
     [SerializeField] private TextMeshPro descriptionText;
@@ -45,7 +45,7 @@ public class StepManager : MonoBehaviour
     /// </summary>
     private void UpdateTextsUI()
     {
-        stepNameText.text = "Étape " + currentStepIndex + " sur " + numberOfSteps;
+        titleText.text = "Étape " + currentStepIndex + " sur " + numberOfSteps;
         
         LocalizedTextTMP step = descriptionText.GetComponent<LocalizedTextTMP>();
         string stepKey = step.LocalizationKey;
