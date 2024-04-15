@@ -15,4 +15,4 @@ Après avoir télécharger ou cloné notre projet avec [git](https://git-scm.com
 git clone https://github.com/Okiles/PolyLens.git
 ```
 
-Ajoutez dans le dossier `Packages` le fichier `com.ptc.vuforia.engine-10.21.3.tgz` disponible à cette [adresse](https://we.tl/t-4xal4JanCN). Vous pouvez ensuite ouvrir le projet avec Unity.
+Ajoutez dans le dossier `Packages` le fichier `com.ptc.vuforia.engine-10.21.3.tgz` disponible à cette [adresse](https://mega.nz/file/z5ZnRCJB#CNE9upLpB8sef3sR_zjj8BwyJHtrOVZrD_4OX0f0hPo). Vous pouvez ensuite ouvrir le projet avec Unity.
