@@ -1,5 +1,5 @@
 <div align=center>
-  <h1>PolyLens</h1>
+  <p style="font-size: 100px; font-weight: bold;">PolyLens</p>
   <h2>Polytech Nancy - Hololens 2</h2>
   <img src="https://skillicons.dev/icons?i=cs,unity,visualstudio">
 </div>
