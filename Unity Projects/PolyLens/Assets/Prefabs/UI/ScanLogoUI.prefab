@@ -229,7 +229,6 @@ GameObject:
   - component: {fileID: 2169785943078657316}
   - component: {fileID: 7815926734674714024}
   - component: {fileID: 1811259630502556404}
-  - component: {fileID: 5315855169602657297}
   m_Layer: 0
   m_Name: ScanLogoUI
   m_TagString: Untagged
@@ -313,18 +312,6 @@ MonoBehaviour:
   angularClampMode: 0
   tetherAngleSteps: 6
   boundsScaler: 1
---- !u!114 &5315855169602657297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2778631515479145879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cdda129847675049b2367884f390ab3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4261420102140921091
 GameObject:
   m_ObjectHideFlags: 0
