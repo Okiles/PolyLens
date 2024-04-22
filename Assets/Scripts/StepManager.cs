@@ -1,4 +1,3 @@
-using Assets.SimpleLocalization.Scripts;
 using TMPro;
 using UnityEngine;
 
@@ -14,6 +13,9 @@ public class StepManager : MonoBehaviour
     [Tooltip("Texte affichant la description de l'étape.")]
     [SerializeField] private TextMeshPro descriptionText;
     
+    [Tooltip("Image affichant l'image de l'étape.")]
+    [SerializeField] private SpriteRenderer imageRenderer;
+    
     [Header("Buttons UI")]
     [Tooltip("Bouton pour passer à l'étape suivante.")]
     [SerializeField] private GameObject nextButton;
@@ -21,22 +23,17 @@ public class StepManager : MonoBehaviour
     [Tooltip("Bouton pour passer à l'étape précédente.")]
     [SerializeField] private GameObject previousButton;
     
-    [Header("Fichier CSV")]
-    [Tooltip("Fichier CSV contenant les étapes dans les différentes langues.")]
-    [SerializeField] private TextAsset csvFile;
-    
     [Header("Step List")]
-    [Tooltip("Liste des étapes à activer lors de l'étape.")]
-    [SerializeField] private GameObject[] stepGameObjects;
+    [Tooltip("Liste d'affichage des étapes (animations).")]
+    [SerializeField] private GameObject[] stepAnimation;
+    
+    [Tooltip("Etapes de la machine.")]
+    [SerializeField] private SoStep[] steps;
     
     private int currentStepIndex = 1;
     
-    private int numberOfSteps;
-    
     private void Start()
     {
-        string[] lines = csvFile.text.Split('\n');
-        numberOfSteps = lines.Length-1;
         UpdateUI();
     }
     
@@ -45,23 +42,11 @@ public class StepManager : MonoBehaviour
     /// </summary>
     private void UpdateTextsUI()
     {
-        titleText.text = "Étape " + currentStepIndex + " sur " + numberOfSteps;
-        
-        LocalizedTextTMP step = descriptionText.GetComponent<LocalizedTextTMP>();
-        string stepKey = step.LocalizationKey;
-
-        if (currentStepIndex <= 10)
-        {
-            stepKey = stepKey.Substring(0, stepKey.Length - 1);
-        } else
-        {
-            stepKey = stepKey.Substring(0, stepKey.Length - 2);
+        titleText.text = "Étape " + currentStepIndex + " sur " + steps.Length;
+        descriptionText.text = steps[currentStepIndex - 1].stepText;
+        if (steps[currentStepIndex - 1].stepImage != null) {
+            imageRenderer.sprite = steps[currentStepIndex - 1].stepImage;
         }
-        
-        stepKey += currentStepIndex;
-        
-        step.LocalizationKey = stepKey;
-        descriptionText.text = LocalizationManager.Localize(stepKey);
     }
 
     /// <summary>
@@ -74,7 +59,7 @@ public class StepManager : MonoBehaviour
         
         if (currentStepIndex == 1) {
             previousButton.SetActive(false);
-        } else if (currentStepIndex == numberOfSteps) {
+        } else if (currentStepIndex == steps.Length) {
             nextButton.SetActive(false);
         }
     }
@@ -84,11 +69,11 @@ public class StepManager : MonoBehaviour
     /// </summary>
     private void UpdateGameObjects()
     {
-        foreach (GameObject go in stepGameObjects) {
+        foreach (GameObject go in stepAnimation) {
             go.SetActive(false);
         }
         
-        stepGameObjects[currentStepIndex - 1].SetActive(true);
+        stepAnimation[currentStepIndex - 1].SetActive(true);
     }
     
     /// <summary>
@@ -106,7 +91,7 @@ public class StepManager : MonoBehaviour
     /// </summary>
     public void NextStep()
     {
-        if (currentStepIndex < numberOfSteps) {
+        if (currentStepIndex < steps.Length) {
             currentStepIndex++;
             UpdateUI();
         }
