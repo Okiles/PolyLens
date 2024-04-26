@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca3d91162dd453b8270559606b44fc4, type: 3}
   m_Name: Step3
   m_EditorClassIdentifier: 
-  stepText: Placez votre produit/objet sur la grille.
+  stepText: Placez votre objet sur la grille.
   stepImage: {fileID: 0}

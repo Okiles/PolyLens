@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stepText: "Utilisez les commandes situ\xE9es \xE0 droite pour positionner le laser
     au-dessus de l\u2019objet plac\xE9."
-  stepImage: {fileID: 0}
+  stepImage: {fileID: 21300000, guid: e24d278f91339cd4b8e7da3ddeda95a0, type: 3}

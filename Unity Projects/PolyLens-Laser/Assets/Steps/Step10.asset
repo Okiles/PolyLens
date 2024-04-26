@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca3d91162dd453b8270559606b44fc4, type: 3}
   m_Name: Step10
   m_EditorClassIdentifier: 
-  stepText: "Une fois que vous avez fini la partie logicielle, appuyer sur le bouton
-    \u201C\u2225>\u201D pour lancer la machine."
-  stepImage: {fileID: 0}
+  stepText: "Appuyez sur le bouton \u201C\u2225>\u201D pour lancer la machine."
+  stepImage: {fileID: 21300000, guid: b2d56063cd4f5604295be316228121db, type: 3}

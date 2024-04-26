@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Step1
   m_EditorClassIdentifier: 
   stepText: "Appuyez sur l'interrupteur situ\xE9 derri\xE8re la machine pour la d\xE9marrer."
-  stepImage: {fileID: 0}
+  stepImage: {fileID: 21300000, guid: 75693dda2624cd042960819f48dd0190, type: 3}

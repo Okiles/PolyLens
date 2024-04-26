@@ -44,8 +44,13 @@ public class StepManager : MonoBehaviour
     {
         titleText.text = "Étape " + currentStepIndex + " sur " + steps.Length;
         descriptionText.text = steps[currentStepIndex - 1].stepText;
-        if (steps[currentStepIndex - 1].stepImage != null) {
+        if (steps[currentStepIndex - 1].stepImage != null) 
+        {
             imageRenderer.sprite = steps[currentStepIndex - 1].stepImage;
+        }
+        else 
+        {
+            imageRenderer.sprite = null;
         }
     }
 
