@@ -24,10 +24,12 @@ Cette aplication a été réalisé par 2 étudiants en BUT Informatique[^2], lor
 
 ## Installation
 
-Après avoir télécharger ou cloné notre projet avec [git](https://git-scm.com/) grâce à la commande :
+Après avoir télécharger ou cloné les projets avec [git](https://git-scm.com/) grâce à la commande :
 
 ```git
 git clone https://github.com/Okiles/PolyLens.git
 ```
 
-Ajoutez dans le dossier `Packages` le fichier `com.ptc.vuforia.engine-10.21.3.tgz` disponible à cette [adresse](https://mega.nz/file/z5ZnRCJB#CNE9upLpB8sef3sR_zjj8BwyJHtrOVZrD_4OX0f0hPo). Vous pouvez ensuite ouvrir le projet avec Unity.
+Ajoutez dans les dossiers `Packages` le fichier `com.ptc.vuforia.engine-10.21.3.tgz` disponible à cette [adresse](https://mega.nz/file/z5ZnRCJB#CNE9upLpB8sef3sR_zjj8BwyJHtrOVZrD_4OX0f0hPo). Vous pouvez ensuite ouvrir les projets avec Unity.
+
+Vous pouvez égelement télécharger les projets et leur version build à cette [adresse](https://bul.univ-lorraine.fr/index.php/apps/files/?dir=/Casque%20R%C3%A9alit%C3%A9%20Augment%C3%A9e%20HOLOLENS&fileid=107193881).
