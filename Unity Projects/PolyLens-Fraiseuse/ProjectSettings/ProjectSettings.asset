@@ -688,11 +688,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: PolyLens-Fraiseuse
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: Polytech - Nancy
+  metroCertificateIssuer: Polytech - Nancy
+  metroCertificateNotAfter: 808b1a6eb9b6db01
   metroApplicationDescription: PolyLens-Fraiseuse
   wsaImages:
     65636: Assets/Textures/logo/logo-50x50.png
